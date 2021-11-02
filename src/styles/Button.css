@@ -1,0 +1,17 @@
+.Button {
+	padding: 20px;
+	text-decoration: none;
+	background-color: var(--red-color);
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+	transition: background-color 300ms ease;
+	cursor: pointer;
+}
+
+.Button:hover {
+	background-color: var(--darkred-color);
+}

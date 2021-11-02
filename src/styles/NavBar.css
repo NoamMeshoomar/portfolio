@@ -1,0 +1,143 @@
+.NavBar {
+	top: 20px;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 999;
+}
+
+.NavBar.sticky {
+	top: 0;
+	left: 0;
+	padding: 15px var(--default-width);
+	position: fixed;
+	width: 100vw;
+	background-color: rgba(0, 0, 10, 0.8);
+	transition: all 300ms ease;
+}
+
+.NavBar .links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.NavBar .social-links a {
+	margin: 0 5px;
+}
+
+.NavBar .social-links a:nth-child(1) {
+	margin: 0;
+}
+
+.NavBar .social-links a svg {
+	transition: fill 300ms ease;
+}
+
+.NavBar .social-links a svg:hover {
+	fill: var(--red-color);
+}
+
+.NavBar .nav-links {
+	list-style: none;
+	display: flex;
+}
+
+.NavBar .nav-links li {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0 36px;
+	cursor: pointer;
+	transition: color 300ms ease;
+}
+
+.NavBar .nav-links li:hover {
+	color: var(--red-color);
+}
+
+.NavBar .nav-links li.active {
+	color: var(--red-color);
+	font-weight: 600;
+	cursor: default;
+}
+
+/* BURGER */
+
+.NavBar .burger {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 40px;
+	display: none;
+	cursor: pointer;
+}
+
+.NavBar .burger .line {
+	margin: 8px 0;
+	width: 28px;
+	height: 3px;
+	border-radius: 50px;
+	background-color: #fff;
+}
+
+.NavBar .burger .line:nth-child(1) {
+	margin-top: 0;
+}
+
+.NavBar .burger .line:nth-child(3) {
+	margin-bottom: 0;
+}
+
+/* REPONSIVE */
+
+@media screen and (max-width: 1480px) {
+	.NavBar.sticky {
+		padding: 20px 40px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.NavBar {
+		top: 0;
+		left: 0;
+	}
+	
+	.NavBar.sticky {
+		position: fixed;
+		background-color: transparent;
+	}
+
+	.NavBar .links {
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		background-image: linear-gradient(to top, #00000c, #051b30);
+		top: 0;
+		left: 0;
+		transform: translateX(-100%);
+		transition: transform .3s ease;
+	}
+
+	.NavBar .links.mobile {
+		transform: translateX(0);
+	}
+
+	.NavBar .links .social-links {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
+
+	.NavBar .links .nav-links {
+		text-align: center;
+		justify-content: space-between;
+		flex-direction: column;
+		height: 50%;
+	}
+
+	.NavBar .burger {
+		display: block;
+	}
+}

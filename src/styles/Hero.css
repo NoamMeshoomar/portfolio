@@ -1,0 +1,166 @@
+.Hero {
+	padding: 0 var(--default-width);
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(to top, #000013, #062441);
+}
+
+.Hero::after {
+	content: '';
+	position: absolute;
+	width: 1070px;
+	height: 944px;
+	margin-top: 50px;
+	background-image: url("../assets/stars.png");
+	background-size: cover;
+	top: -50%;
+	right: 60px;
+	transform: translateY(50%);
+}
+
+.Hero .hero-container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Information */
+
+.Hero .Information {
+	color: #fff;
+	animation: FadeUp 2s ease-out;
+}
+
+.Hero .Information .name {
+	font-size: 72px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.Hero .Information .profession {
+	font-size: 44px;
+	font-weight: 400;
+}
+
+.Hero .Information .about {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 40px;
+	margin-bottom: 60px;
+}
+
+/* Sensei */
+
+.Hero .Sensei {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 60px;
+	z-index: 10;
+}
+
+.Hero .Sensei .codes {
+	position: absolute;
+	top: -200px;
+	animation: FadeInOut 500ms ease-in;
+}
+
+.Hero .Sensei .sensei {
+	animation: Float 3s ease infinite;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1480px) {
+	.Hero {
+		padding: 40px;
+	}
+	
+	.Hero .Information .name {
+		font-size: 62px;
+		margin-bottom: 20px;
+	}
+	
+	.Hero .Information .profession {
+		font-size: 34px;
+	}
+	
+	.Hero .Information .about {
+		font-size: 18px;
+		line-height: 35px;
+	}
+
+	.Hero .Sensei .codes {
+		top: -150px;
+		width: 500px;
+	}
+
+	.Hero .Sensei .sensei {
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 1160px) {	
+	.Hero .Information .name {
+		margin-top: 20px;
+		font-size: 48px;
+	}
+	
+	.Hero .Information .profession {
+		font-size: 26px;
+	}
+	
+	.Hero .Information .about {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.Hero .Sensei .codes {
+		top: -100px;
+		width: 400px;
+	}
+
+	.Hero .Sensei .sensei {
+		width: 400px;
+		animation: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.Hero .hero-container {
+		justify-content: center;
+		flex-direction: column-reverse;
+	}
+	
+	.hero-container .Information {
+		text-align: center;
+	}
+
+	.hero-container .Information .Separator {
+		margin: 20px auto;
+	}
+
+	.hero-container .Information .Button {
+		font-size: 18px;
+	}
+
+	.Hero .Information .name {
+		margin-top: 20px;
+		font-size: 48px;
+	}
+	
+	.Hero .Information .profession {
+		font-size: 26px;
+	}
+	
+	.Hero .Information .about {
+		font-size: 14px;
+	}
+
+	.Hero .Sensei {
+		display: none;
+	}
+}

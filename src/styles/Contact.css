@@ -1,0 +1,74 @@
+.Contact {
+	padding: 60px 0 40px 0;
+	width: 100vw;
+	background-color: #000013;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Contact h1 {
+	color: #fff;
+	font-size: 42px;
+	font-weight: 500;
+}
+
+.Contact p {
+	color: var(--lightgrey-color);
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 34px;
+}
+
+.Contact a {
+	margin: 60px;
+	padding: 20px 60px;
+}
+
+.Contact .contact-information {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Contact .contact-information .phone,
+.Contact .contact-information .email {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 20px;
+}
+
+.Contact .contact-information .email a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: var(--lightgrey-color);
+}
+
+.Contact .contact-information img {
+	width: 20px;
+	margin-right: 10px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 800px) {
+	.Contact p {
+		font-size: 18px;
+	}
+
+	.Contact .contact-information {
+		flex-direction: column;
+	}
+
+	.Contact .contact-information div {
+		margin: 20px;
+	}
+}

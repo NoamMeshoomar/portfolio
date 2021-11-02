@@ -1,0 +1,7 @@
+.Separator {
+	margin: 20px 0;
+	width: 30px;
+	height: 5px;
+	background-color: var(--red-color);
+	border-radius: 50px;
+}
