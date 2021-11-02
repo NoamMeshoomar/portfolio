@@ -12,8 +12,12 @@ const projects = [
 		image: SkillownPNG,
 		technologies: "React, Redux, Node.js, Express, MongoDB",
 		links: {
-			github: "",
+			github: "https://github.com/NoamMeshoomar/skillown-social_network",
 			link: "https://skillown.netlify.app"
+		},
+		demoAccount: {
+			login: "test@gmail.com",
+			password: "1qaz2wsx"
 		}
 	},
 	{
@@ -23,8 +27,12 @@ const projects = [
 		image: ItoysPNG,
 		technologies: "React, Redux, Node.js, Express, MongoDB",
 		links: {
-			github: "",
+			github: "https://github.com/NoamMeshoomar/itoys-ecommerce",
 			link: "https://itoys.netlify.app"
+		},
+		demoAccount: {
+			login: "test@gmail.com",
+			password: "1qaz2wsx"
 		},
 		right: true
 	},
@@ -37,7 +45,8 @@ const projects = [
 		links: {
 			github: "",
 			link: "https://sable.co.il"
-		}
+		},
+		demoAccount: null
 	},
 	{
 		id: 4,
@@ -48,6 +57,10 @@ const projects = [
 		links: {
 			github: "",
 			link: "https://jingo-world.herokuapp.com"
+		},
+		demoAccount: {
+			login: "test",
+			password: "1qaz2wsx"
 		},
 		right: true
 	},
@@ -60,6 +73,10 @@ const projects = [
 		links: {
 			github: "https://github.com/NoamMeshoomar/whatsapp-clone",
 			link: "https://whatsapp-noam.netlify.app/signin"
+		},
+		demoAccount: {
+			login: "test@gmail.com",
+			password: "1qaz2wsx"
 		}
 	}
 ];
