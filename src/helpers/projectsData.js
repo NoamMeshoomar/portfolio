@@ -7,7 +7,7 @@ import WhatsappPNG from "../assets/projects/whatsapp.png";
 const projects = [
 	{
 		id: 1,
-		title: "Skillown Social Media",
+		title: "Skillown Social Network",
 		description: "Skillown is a Social Network to uploading your skills, Write Comments, Get Notifications, Followers & Profiles.",
 		image: SkillownPNG,
 		technologies: "React, Redux, Node.js, Express, MongoDB",
