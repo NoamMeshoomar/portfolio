@@ -1,5 +1,3 @@
-#portfolio
-
-My Portfolio!
+# My Portfolio
 
 Check it out https://noammeshoomar-portfolio.netlify.app
