@@ -130,6 +130,10 @@
 }
 
 @media screen and (max-width: 800px) {
+	.Hero::after {
+		display: none;
+	}
+
 	.Hero .hero-container {
 		justify-content: center;
 		flex-direction: column-reverse;
