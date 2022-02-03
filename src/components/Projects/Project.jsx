@@ -17,8 +17,8 @@ const Project = ({ data }) => {
 				<h3>{ data.title }</h3>
 				<div>
 					<p className="description">{ data.description }</p>
-					{ data.demoAccount && <p style={ { marginTop: 20 } }>Demo Account: {`{ Login: ${ data.demoAccount.login } | Password: ${ data.demoAccount.password } }`}</p> }
 					<p className="technologies">{ data.technologies }</p>
+					{ data.demoAccount && <p style={ { marginBottom: 20 } }>Demo Account: {`{ Login: ${ data.demoAccount.login } | Password: ${ data.demoAccount.password } }`}</p> }
 					<div className="links">
 						<a href={ data.links.github } target="_blank" rel="noreferrer">
 							<svg fill="var(--lightgrey-color)" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="38px" height="38px">

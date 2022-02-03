@@ -1,3 +1,4 @@
+import FourGame from "../assets/projects/fourgame.png";
 import SkillownPNG from "../assets/projects/skillown.png";
 import ItoysPNG from "../assets/projects/itoys.png";
 import SablePNG from "../assets/projects/sable.png";
@@ -5,10 +6,37 @@ import JingoPNG from "../assets/projects/jingo.png";
 import WhatsappPNG from "../assets/projects/whatsapp.png";
 
 const projects = [
-	{
+    {
 		id: 1,
+		title: "Sable Virtual World",
+		description: "Sable is an upcoming wonderful virtual world for kids and teenagers. In Sable you can get your own ferre-tar, design your look, explore the world, meet new people, play games, trade and sell items, and a lot more!",
+		image: SablePNG,
+		technologies: "React, Redux, Node.js, Express, Socket.IO, MongoDB, Phaser, OOP, MySQL",
+		links: {
+			github: "",
+			link: "https://sable.co.il"
+		},
+		demoAccount: {
+            login: "test",
+            password: "1qaz2wsx"
+        }
+	},
+    {
+		id: 2,
+		title: "Four Game",
+		description: "In Four game you play against a bot which is on the server. The target of the game is to put in a row or column or diagonally 4 times in your color, the first one who succeeds wins the game!",
+		image: FourGame,
+		technologies: "Vue 3, Node.js, Socket.IO",
+		links: {
+			github: "https://github.com/NoamMeshoomar/fourgame",
+			link: "https://fourgamenoam.netlify.app/"
+		},
+        right: true
+	},
+	{
+		id: 3,
 		title: "Skillown Social Network",
-		description: "Skillown is a Social Network to uploading your skills, Write Comments, Get Notifications, Followers & Profiles.",
+		description: "Skillown is a Social Network for uploading videos of your skills, Anyone can open an account with their own personal page, Upload videos, Watch, Like, Comment, And follow users!",
 		image: SkillownPNG,
 		technologies: "React, Redux, Node.js, Express, MongoDB",
 		links: {
@@ -21,9 +49,9 @@ const projects = [
 		}
 	},
 	{
-		id: 2,
+		id: 4,
 		title: "Itoys Ecommerce",
-		description: "iToys is an online store that selling toys for kids with Accounts, Categories, Cart & PayPal payment method.",
+		description: "iToys is an online toy store for kids with a PayPal payment method, modern and responsive design, Cart & Account.",
 		image: ItoysPNG,
 		technologies: "React, Redux, Node.js, Express, MongoDB",
 		links: {
@@ -37,19 +65,7 @@ const projects = [
 		right: true
 	},
 	{
-		id: 3,
-		title: "Sable Landing Page",
-		description: "A landing page for a game that called Sable for Beta registration.",
-		image: SablePNG,
-		technologies: "React, Node.js, Express, MySQL",
-		links: {
-			github: "",
-			link: "https://sable.co.il"
-		},
-		demoAccount: null
-	},
-	{
-		id: 4,
+		id: 5,
 		title: "Jingo Virtual World",
 		description: "Jingo is a virtual world multiplayer game, The game include Chat with people, Item System, Inventory, Trades, Shops, Rooms & More!",
 		image: JingoPNG,
@@ -61,11 +77,10 @@ const projects = [
 		demoAccount: {
 			login: "test",
 			password: "1qaz2wsx"
-		},
-		right: true
+		}
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Whatsapp Clone",
 		description: "This is a whatsapp clone project, With some features such as Accounts, Add Contacts & Send Messages in real time.",
 		image: WhatsappPNG,
@@ -77,7 +92,8 @@ const projects = [
 		demoAccount: {
 			login: "test@gmail.com",
 			password: "1qaz2wsx"
-		}
+		},
+        right: true
 	}
 ];
 
