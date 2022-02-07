@@ -24,7 +24,7 @@ const projects = [
     {
 		id: 2,
 		title: "Four Game",
-		description: "In Four game you play against a bot which is on the server. The target of the game is to put in a row or column or diagonally 4 times in your color, the first one who succeeds wins the game!",
+		description: "In four game you play against a bot which is on the server. The target of the game is to put in a row or column or diagonally 4 times in your color, the first one who succeeds wins the game!",
 		image: FourGame,
 		technologies: "Vue 3, Node.js, Socket.IO",
 		links: {
@@ -36,7 +36,7 @@ const projects = [
 	{
 		id: 3,
 		title: "Skillown Social Network",
-		description: "Skillown is a Social Network for uploading videos of your skills, Anyone can open an account with their own personal page, Upload videos, Watch, Like, Comment, And follow users!",
+		description: "Skillown is a social network for uploading videos of your skills, anyone can open an account with their own personal page, upload videos, watch, like, comment, and follow users!",
 		image: SkillownPNG,
 		technologies: "React, Redux, Node.js, Express, MongoDB",
 		links: {
@@ -67,7 +67,7 @@ const projects = [
 	{
 		id: 5,
 		title: "Jingo Virtual World",
-		description: "Jingo is a virtual world multiplayer game, The game include Chat with people, Item System, Inventory, Trades, Shops, Rooms & More!",
+		description: "Jingo is a virtual world multiplayer game, the game include chat with people, item System, inventory, trades, shops, rooms & more!",
 		image: JingoPNG,
 		technologies: "HTML, CSS, Vanilla JavaScript, Node.js, Express, Socket.IO",
 		links: {
@@ -82,7 +82,7 @@ const projects = [
 	{
 		id: 6,
 		title: "Whatsapp Clone",
-		description: "This is a whatsapp clone project, With some features such as Accounts, Add Contacts & Send Messages in real time.",
+		description: "This is a whatsapp clone project, With some features such as accounts, add contacts & send messages in real time.",
 		image: WhatsappPNG,
 		technologies: "React, Redux, Node.js, Express, MongoDB, Socket.IO",
 		links: {
