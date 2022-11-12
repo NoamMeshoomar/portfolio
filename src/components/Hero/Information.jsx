@@ -10,11 +10,11 @@ const Information = () => {
 			<h3 className="profession">Full Stack Developer</h3>
 			<Separator />
 			<p className="about">
-            I have always been interested in development, <br />
-            have done quite a few things and projects of computers, <br />
-            I'm an autodidactic, have a very great motivation to succeed and develop, <br />
-            very sociable and enjoys working in a team, <br />
-            open to learn new technologies and topics.
+				I have always been interested in development.<br /><br />
+				Enjoys by writing code. write clean and organized<br />
+				code, and learn new things.<br /><br />
+				I have a self-learning ability,<br />
+				highly motivated, and enjoy working in a team.
 			</p>
 			<Button text="Get in touch" />
 		</div>	
