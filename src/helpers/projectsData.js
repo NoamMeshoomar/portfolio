@@ -72,7 +72,7 @@ const projects = [
 		technologies: "HTML, CSS, Vanilla JavaScript, Node.js, Express, Socket.IO",
 		links: {
 			github: "",
-			link: "https://jingo-world.herokuapp.com"
+			link: "https://jingo-world-dc2cdb2b7680.herokuapp.com/"
 		},
 		demoAccount: {
 			login: "test",
